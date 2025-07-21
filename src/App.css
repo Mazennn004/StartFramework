@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-roboto{
+  font-family: Roboto;
+}
+.primary-color{
+  color: #2C3E50 !important;
+}
+.bg-primary-color{
+background-color: #2C3E50 !important;
+}
+*{
+  box-sizing: border-box;
+}
+.nav-links{
+  
+
+ transform: translateY(-100%);
+transition: all 0.4s;
+  
+}
+.active{
+  background-color: #1ABC9C;
+  
+  border-radius: 10px;
+}
+.link:hover a{
+    background-color: #1ABC9C;
+  
+}
+.link a{
+  transition: all 0.4s;
+}
+
+.menubar:checked~.nav-links{
+ transform: translateY(100%);
+ }
+
+ @media screen and (min-width:768px) {
+ .nav-links{
+  display: contents !important;
+
+ }
+  .nav-links ul{
+    flex-direction: row !important;
+  }
+ .collapse-nav{
+  display: none;
+ }
+ }
+ .bg-footer{
+  background-color: #0C1116 !important;
+ }
+ body{
+  padding-top:70px;
+ }
+.bg-hero{
+  background-color: #1ABC9C !important;
+}
+.line{
+  content: "  ";
+  height:4px;
+  width:100px;
+}
+.image:hover .layer{
+ opacity: 100% !important;
+
+}
+.layer{
+  transition: all 0.7s;
+}
+
+
+ 
+
