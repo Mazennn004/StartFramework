@@ -70,6 +70,8 @@ transition: all 0.4s;
   transition: all 0.7s;
 }
 
-
+.image-layer{
+  z-index:999;
+}
  
 
